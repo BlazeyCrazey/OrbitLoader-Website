@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { getStorageUsed } from "@/lib/storage";
 
-const STORAGE_LIMIT = 5 * 1024 * 1024 * 1024; // 5GB Firebase free
+const STORAGE_LIMIT = 20 * 1024 * 1024 * 1024; // 20GB MEGA free
 
 export async function GET() {
   try {
