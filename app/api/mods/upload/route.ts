@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { canUpload, uploadMod } from "@/lib/r2";
+import { canUpload, uploadMod } from "@/lib/storage";
 import { createClient } from "@/lib/supabase-server";
 
 const MAX_UNCOMPRESSED = 10 * 1024 * 1024; // 10MB uncompressed limit

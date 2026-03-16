@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { downloadMod } from "@/lib/r2";
+import { downloadMod } from "@/lib/storage";
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
